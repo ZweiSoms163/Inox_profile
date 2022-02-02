@@ -1,0 +1,138 @@
+ .body {
+   background-color: #1A2026;
+  }
+ .header {
+    width: 100%;
+    color: #FFFFFF;
+
+  }
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+  }
+
+
+  .header-logo__image {
+    width: 153px;
+    height: 55px;
+
+  }
+  .header__inner {
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #58595B;
+
+    @media (max-width: $resL) {
+      height: 94px;
+    }
+    @media (max-width: $resS) {
+      height: 55px;
+    }
+  }
+  .header__number {
+    font-family: HelveticaNeueCyr,sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    Line-height: 60px;
+    letter-spacing: 1px;
+    margin-right: 54px;
+
+
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header__button {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 25px;
+
+    width: 263px;
+    height: 68px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    font-family: HelveticaNeueCyr,sans-serif;
+
+    font-style: normal;
+    font-weight: 300;
+
+  }
+
+  .header__hamburger {
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+  .header-logo__image {
+    @media (max-width:$resL) {
+      width: 137px;
+      height: 50px;
+    }
+  }
+ .header__number {
+   @media (max-width: $resL) {
+     font-size: 24px;
+     margin-right: 52px;
+   }
+
+   }
+ .header__button {
+   @media (max-width: $resL) {
+     font-size: 18px;
+     width: 260px;
+     height: 60px;
+   }
+ }
+ .header__number {
+   @media (max-width: $resM) {
+     display: none;
+   }
+ }
+ .header-logo__image {
+   @media (max-width:$resS) {
+     width: 80px;
+     height: 30px;
+   }
+ }
+
+ .header__button {
+   @media (max-width: $resS) {
+     font-size: 14px;
+     width: 140px;
+     height: 35px;
+   }
+ }
+ .header__hamburger img {
+   @media (max-width: $resS) {
+     width: 16.47px;
+     height: 8.24px;
+   }
+ }
+ .header__hamburger  {
+   @media (max-width: $resS) {
+     width: 35px;
+     height: 35px;
+   }
+ }
+ .fireproof-h1__back {
+   position: absolute;
+   left: -180px;
+   top: 0;
+ }

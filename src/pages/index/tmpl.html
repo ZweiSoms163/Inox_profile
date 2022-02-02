@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Главная</title>
+  <meta charset="UTF-8">
+
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="pragma" content="no-cache"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+</head>
+
+<body class="body">
+  <div class="body__wrapper" style="opacity: 0; overflow: hidden;">
+    <%= require('html-loader!../../partials/header.html') %>
+
+    <main class="body__main main">
+
+      <section class="fireproof">
+
+        <div class="container">
+
+
+          <div class="fireproof__row">
+
+            <div class="fireproof__left">
+
+              <h1 class="fireproof__title" >Противопожарные Светопрозрачные <br> двери</h1>
+              <img class="fireproof-h1__back" src="../assets/svg/ellipse.svg" alt="photo">
+
+
+            </div>
+
+            <div class="fireproof__right">
+
+              <ul class="fireproof__nav">
+                <li>Проектирование</li>
+                <li>Изготовление</li>
+                <li>Монтаж</li>
+              </ul>
+
+              <button  type="button" class="fireproof__cost "  aria-label="Узнать стоимость">
+                Узнать стоимость
+                <img class="cost__img" src="../assets/svg/arrow.svg">
+              </button>
+
+            </div>
+
+
+          </div>
+
+          <div class="fireproof__image">
+            <img  class="fireproof__img" src="../assets/img/unsplash.png" alt="photo">
+            <img  class="fireproof__img__back" src="../assets/svg/ellipse2.svg" alt="photo">
+          </div>
+
+
+
+
+        </div>
+        <div class="fireproof__back">
+          <img src="../assets/img/back.png" alt=""
+        </div>
+      </section>
+
+    </main>
+
+    <%= require('html-loader!../../partials/footer.html') %>
+  </div>
+</body>
+
+</html>
