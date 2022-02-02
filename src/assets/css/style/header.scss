@@ -1,0 +1,169 @@
+ .body {
+
+  }
+  .header {
+    width: 100%;
+    height: 104px;
+    color: #FFFFFF;
+    background: url(../../img/back.png); // выдает ошибку
+    background-color: #1A2026;
+  }
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+
+  .header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 14px;
+
+
+  }
+  .header__number {
+    font-family: HelveticaNeueCyr; // выдает ошибку
+    color: #ffffff;
+    padding-left: 796px;
+    font-size: 28px;
+    Line-height: 60px;
+    padding-right: 77px;
+
+
+
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header__button {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 25px;
+    width: 263px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    padding: 24px 23px;
+    font-family: HelveticaNeueCyr;
+  }
+
+  .header__hamburger {
+    width: 32px;
+    height: 16px;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 27px 20px ;
+    border-radius: 50px;
+    border: 1px solid #FFFFFF;
+    span {
+      display: block;
+      background-color: white;
+      height: 2px;
+      border-radius: 4px;
+      width: 100%;
+      margin-bottom: 6px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .strip {
+    border: 1px solid #58595B;
+    display: block;
+    margin-top: 15px;
+  }
+
+
+ @media (max-width: 1599px) {
+   .header__number{
+     padding-left: 60px;
+     padding-right: 50px;
+   }
+   .header__inner {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .header__number{
+     padding-left: 60px;
+     padding-right: 50px;
+   }
+   .header__button {
+     margin-right: 35px;
+   }
+ }
+
+ @media (max-width: 840px) {
+   .header__number {
+     display: none;
+   }
+
+ }
+
+ @media (max-width: 520px) {
+
+   .header__logo {
+     width: 79px;
+     height: 29px;
+   }
+   .header__button {
+     width: 106px;
+     padding: 10.5px 17px;
+     margin-left: 32px;
+     font-weight: 300;
+     font-size: 15px;
+     margin-right: 20px;
+   }
+   .header__hamburger {
+     width: 32px;
+     height: 16px;
+     flex-shrink: 0;
+     cursor: pointer;
+     padding: 16px 9px;
+     border-radius: 50px;
+     border: 1px solid #FFFFFF;
+   }
+ }
+
+ @media (max-width: 320px) {
+   .header__logo {
+     width: 79px;
+     height: 29px;
+   }
+   .header__number {
+     display: none;
+
+   }
+   .header__button {
+     width: 106px;
+     padding: 10.5px 17px;
+     margin-left: 25px;
+     font-weight: 300;
+     font-size: 15px;
+     margin-right: 10px;
+   }
+   .header__hamburger {
+     width: 32px;
+     height: 16px;
+     flex-shrink: 0;
+     cursor: pointer;
+     padding: 16px 9px;
+     border-radius: 50px;
+     border: 1px solid #FFFFFF;
+     margin-right: 20px;
+   }
+   .header__inner {
+     display: flex;
+   }
+   .strip{
+     width: 280px;
+   }
+ }
+
